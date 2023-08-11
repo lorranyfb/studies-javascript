@@ -9,7 +9,7 @@
     const valorPago = valorTotal / numClientes
     alert(`O valor a ser pago por cada cliente é de ${valorPago}`)
 
-    const preco = Number(prompt("o preço do produto: "))
+    const preco = Number(prompt("o preco do produto: "))
     const aVista = preco - 0.10
     const parcelado = preco / 3
     alert(`O valor total da compra é de ${preco.toFixed(2)} \n Pagamento à vista: ${aVista.toFixed(2)} \n Pagamento parcelado: ${parcelado.toFixed(2)}`)
